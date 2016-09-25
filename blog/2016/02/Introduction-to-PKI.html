@@ -84,7 +84,24 @@
 </ol><p><strong>Public Key Infrastructure</strong><br/>PKI is the infrastructure for managing digital certificates and key pairs obtained using public key cryptography, which allows entities to take advantage of the security it offers. Key management is totally taken by PKI since it involves distributed operations and access to the keys. Main services offered by PKI are Authentication, Integrity, and Confidentiality.</p><p><strong>Public Key Based Authentication is based on Challenge Response Based Authentication</strong><br/>Suppose Alice wants to authenticate Bob, then Alice retrieves the Bob's certificate for his public key. Then Alice sends the challenge message to Bob. Bob signs the challenge with his private key and responds to Alice. Alice decrypts the signature using Bob's public key and compares the obtained challenge message with its original challenge message. If both are same, then the Bob that Alice is communicating is authentic. In our case, the user is the Bob and server is Alice. Here Challenge and Response message can be varied according to the needs. There could be N number as challenge and response as N + 1. Or either hash function could be used for this purpose.</p><p>Each challenge-response sequence should be unique. And it's better if challenge and response are not the same. Replay attacks try to repeat valid data- transmissions by forging the requests.</p><p>References:<br/><a href="https://technet.microsoft.com/en-us/library/aa998077(v=exchg.65).aspx">https://technet.microsoft.com/en-us/library/aa998077(v=exchg.65).aspx</a></p></p>
 
 	<hr />
-	
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+    this.page.url = 'https://anirudhgali.github.io/blog/2016/02/Introduction-to-PKI.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'blog/2016/02/Introduction-to-PKI.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//anirudhgali-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                    	
 		</div>
 		<div id="push"></div>
     </div>
@@ -101,6 +118,15 @@
     <script src="../../../js/jquery-1.11.1.min.js"></script>
     <script src="../../../js/bootstrap.min.js"></script>
     <script src="../../../js/prettify.js"></script>
-    
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-84728015-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
   </body>
 </html>

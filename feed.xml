@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://jbake.org</link>
-    <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://anirudhgali.github.io/</link>
+    <atom:link href="https://anirudhgali.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 24 Sep 2016 13:02:03 -0700</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 13:02:03 -0700</lastBuildDate>
+    <pubDate>Sat, 24 Sep 2016 19:35:13 -0700</pubDate>
+    <lastBuildDate>Sat, 24 Sep 2016 19:35:13 -0700</lastBuildDate>
 
     <item>
       <title>Introduction to PKI</title>
-      <link>http://jbake.org/blog/2016/02/Introduction-to-PKI.html</link>
+      <link>https://anirudhgali.github.io//blog/2016/02/Introduction-to-PKI.html</link>
       <pubDate>Mon, 1 Feb 2016 00:00:00 -0800</pubDate>
       <guid isPermaLink="false">blog/2016/02/Introduction-to-PKI.html</guid>
       	<description>
