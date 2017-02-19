@@ -59,3 +59,9 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+
+# Jbake
+/output
+
+.DS_Store
