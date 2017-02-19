@@ -19,9 +19,10 @@ margin-left: -150px;
 clear: both;
 		}
 </style>
-
+<br/>
+<br/>
 <div id="wrapper">
-	<div id="sidebar"><img src="me.jpg" alt="Anirudh Gali" class="img-circle" style="width: 150px;height: 150px;">
+	<div id="sidebar"><img src="me.webp" alt="Anirudh Gali" class="img-circle" style="width: 150px;height: 150px;">
 </div>
 <div id="content">
 	Hi! I'm Anirudh. I am full stack engineer, juggler of different tools/API's and passionate about the software development. I did Master's in Computer Science from Arizona State University, specialising in Cloud Computing, Distributed Software Development and Security. During free time, I learn new and upcoming cool stuff and spend quality time in writing articles. Feel free to email {<a href="mailto:gali.anirudh@gmail.com"><b>gali.anirudh@gmail.com</b></a>} if contribution is needed in any project.
