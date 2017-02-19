@@ -1,0 +1,74 @@
+body {
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 17.1429px;
+}
+
+textarea, textarea.form-control {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button#frmtBtn {
+    background-color : #0288D1;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+button#clrBtn {
+    background-color : #0097A7;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+button#cpyBtn {
+    background-color : #FBC02D;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+button#editBtn {
+    background-color : #512DA8;
+    margin-left: 3px;
+}
+
+button#diffBtn {
+    background-color : #00796B;
+    margin-left: 3px;
+}
+
+.CodeMirror {
+    height: 800px;
+    margin-top: 3px;
+}
+
+.CodeMirror-merge {
+    height: 800px;
+    margin-top: 3px;
+}
+
+button#showDiffBtn {
+    margin-left: 6px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+button#twoWayDiffBtn {    
+    background-color : #F57C00;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+button#threeWayDiffBtn {
+    background-color : #F57C00;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
