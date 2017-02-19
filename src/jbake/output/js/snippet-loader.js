@@ -95,7 +95,10 @@ function initEditUI() {
     // Initialize data
     editor = CodeMirror.fromTextArea(editArea, {
         lineNumbers: true,
-        viewportMargin: Infinity
+        lineWrapping: true,
+        viewportMargin: Infinity,
+        foldGutter: true,
+        gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"]
     });
 
     editor.focus();
