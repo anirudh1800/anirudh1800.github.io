@@ -28,127 +28,93 @@
     <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body onload="prettyPrint()">
-    <div id="wrap">
+ 
 
 	<!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-dark bg-primary">
       <div class="container">
+       <a class="navbar-brand" href="">ANIRUDH GALI</a>
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <button type="button"class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="">ANIRUDH GALI</a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="snippet-loader.html">Utilities</a></li>
-            <li><a href="feed.xml">Subscribe</a></li>
-            <!-- 
-<li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
- -->
-          </ul>
-        </div><!--/.nav-collapse -->
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">Blog<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="snippet-loader.html">Utilities</a></li>
+            <li class="nav-item"><a class="nav-link" href="feed.xml">Subscribe</a></li>
+        </div>
       </div>
     </div>
     <div class="container">
 
-	<html>
-
-<head>
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/codemirror.css">
-    <link rel=stylesheet href="js/addons/merge/merge.css">
-    <link rel="stylesheet" href="css/toastr.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Libraries -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/codemirror.js"></script>
-    <script src="js/diff_match_patch.js"></script>
-    <script src="js/addons/merge/merge.js"></script>
-    <script src="js/toastr.min.js"></script>
-    <script src="js/clipboard.min.js"></script>
-
-        <!-- Language Supported-->
-     <script src="mode/javascript/javascript.js"></script>
-     <script src="mode/clike/clike.js"></script>
-     <script src="mode/xml/xml.js"></script>
-     <script src="mode/htmlmixed/htmlmixed.js"></script>
-     <script src="mode/css/css.js"></script>
-
-    <script src="js/beautify.js"></script>
-    <script src="js/beautify-css.js"></script>
-    <script src="js/beautify-html.js"></script>
-
-    <!-- Developer -->
-    <script src="js/snippet-loader.js"></script>
-   
-</head>
-
-<body>
-
-    <!-- Share Snippet Dialog -->
-    <header>
-        <br/>
-        <h4><b>ShareSnippet</b></h4>
-    </header>
-    <form>
-        <br/>
-    <div class="form-group">
-        <button type="button" class="btn btn-primary" id="editBtn">Editor</button>
-        <button type="button" class="btn btn-primary" id="diffBtn">Diff/Merge</button>
-    </div>
-    <div id="editDiv" class="form-group">
-        <button type="button" class="btn btn-primary" id="frmtBtn">Format</button>
-        <button type="button" class="btn btn-primary" id="clrBtn">Clear</button>
-        <button type="button" class="btn btn-primary" id="cpyBtn">Copy</button>
-        <textarea class="form-control" style="display:none;" id="editArea"></textarea>
-    </div>
-    <div id="diffDiv" class="form-group">
-     <button type="button" class="btn btn-primary" id="showDiffBtn">Diff Below</button>
-     <button type="button" class="btn btn-primary" id="twoWayDiffBtn">Two-way Merge</button>
-     <button type="button" class="btn btn-primary" id="threeWayDiffBtn">Three-way Merge</button>
-     <div id="mergeView"></div>
-    </div>
-    
-    </form>
-
-    <footer>
-        <h6><b>Anirudh Gali  &copy; 2017</b></h6>
-    </footer>
-</body>
-
-</html>
-
+	<!-- Stylesheets --> 
+<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" href="css/codemirror.css"> 
+<link rel="stylesheet" href="js/addons/merge/merge.css"> 
+<link rel="stylesheet" href="css/toastr.min.css"> 
+<link rel="stylesheet" href="css/custom.css"> 
+<!-- Libraries --> 
+<script src="js/jquery-3.3.1.slim.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/codemirror.js"></script> 
+<script src="js/diff_match_patch.js"></script> 
+<script src="js/addons/merge/merge.js"></script> 
+<script src="js/toastr.min.js"></script> 
+<script src="js/clipboard.min.js"></script> 
+<!-- Language Supported--> 
+<script src="mode/javascript/javascript.js"></script> 
+<script src="mode/clike/clike.js"></script> 
+<script src="mode/xml/xml.js"></script> 
+<script src="mode/htmlmixed/htmlmixed.js"></script> 
+<script src="mode/css/css.js"></script> 
+<script src="js/beautify.js"></script> 
+<script src="js/beautify-css.js"></script> 
+<script src="js/beautify-html.js"></script> 
+<!-- Developer --> 
+<script src="js/snippet-loader.js"></script>   
+<!-- Share Snippet Dialog --> 
+<header> 
+ <br> 
+ <h4><b>ShareSnippet</b></h4> 
+</header> 
+<form> 
+ <br> 
+ <div class="form-group"> 
+  <button type="button" class="btn btn-primary" id="editBtn">Editor</button> 
+  <button type="button" class="btn btn-primary" id="diffBtn">Diff/Merge</button> 
+ </div> 
+ <div id="editDiv" class="form-group"> 
+  <button type="button" class="btn btn-primary" id="frmtBtn">Format</button> 
+  <button type="button" class="btn btn-primary" id="clrBtn">Clear</button> 
+  <button type="button" class="btn btn-primary" id="cpyBtn">Copy</button> 
+  <textarea class="form-control" style="display:none;" id="editArea"></textarea> 
+ </div> 
+ <div id="diffDiv" class="form-group"> 
+  <button type="button" class="btn btn-primary" id="showDiffBtn">Diff Below</button> 
+  <button type="button" class="btn btn-primary" id="twoWayDiffBtn">Two-way Merge</button> 
+  <button type="button" class="btn btn-primary" id="threeWayDiffBtn">Three-way Merge</button> 
+  <div id="mergeView"></div> 
+ </div> 
+</form> 
+<footer> 
+ <h6><b>Anirudh Gali © 2017</b></h6> 
+</footer>
 
 	<hr />
 
-		</div>
+		
 		<div id="push"></div>
     </div>
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2016 | Mixed with <a href="https://bootswatch.com/cosmo/bootstrap.css">Bootstrap v3.3.7</a> | Baked with <a href="http://jbake.org">JBake v2.5.1</a></p>
+        <p class="muted credit">&copy; 2018 | Mixed with <a href="https://bootswatch.com/cosmo/bootstrap.css">Bootstrap v4.1.0</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
       </div>
     </div>
     
