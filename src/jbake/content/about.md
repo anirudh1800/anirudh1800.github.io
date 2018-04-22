@@ -25,7 +25,7 @@ clear: both;
 
 <div class="container">
   <div class="row">
-    <div class="span2"><a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" data-link-color="#2A7DF6" href="https://twitter.com/anirudhgali?ref_src=twsrc%5Etfw">Tweets by anirudhgali</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+    <div class="span2"><a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" data-link-color="#314583" href="https://twitter.com/anirudhgali?ref_src=twsrc%5Etfw">Tweets by anirudhgali</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
     <div class="span10"><div class="word-wrap: break-word;" style="width: 40rem; margin-left: 50px"><p class="text-justify">
       Hi! I'm Anirudh. I am full stack engineer, enthusiatic about developing integrations between components across different stacks, passionate about software development. Obtained Master's degree in Computer Science from Arizona State University, specialised in Cloud Computing, Distributed Software Development and Security. During free time, I learn new and upcoming cool stuff and spend quality time in reading and writing articles. Feel free to email {<a href="mailto:gali.anirudh@gmail.com"><b>gali.anirudh@gmail.com}</p>
 	  <pre>

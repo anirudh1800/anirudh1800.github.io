@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://anirudhgali.github.io//blog/2016/02/Introduction-to-PKI.html</loc>
+        <loc>http://localhost:8820/blog/2016/02/Introduction-to-PKI.html</loc>
         <lastmod>2016-02-01</lastmod>
     </url>
     <url>
-        <loc>https://anirudhgali.github.io//about.html</loc>
-        <lastmod>2018-04-21</lastmod>
+        <loc>http://localhost:8820/snippet-loader.html</loc>
+        <lastmod>2018-04-22</lastmod>
     </url>
     <url>
-        <loc>https://anirudhgali.github.io//snippet-loader.html</loc>
-        <lastmod>2018-04-21</lastmod>
+        <loc>http://localhost:8820/resume.html</loc>
+        <lastmod>2018-04-22</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8820/about.html</loc>
+        <lastmod>2018-04-22</lastmod>
     </url>
 </urlset>

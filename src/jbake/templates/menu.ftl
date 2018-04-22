@@ -14,6 +14,8 @@
             <a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Blog<span class="sr-only">(current)</span></a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>snippet-loader.html">Utilities</a></li>
+            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>resume.html">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/anirudhgali">GitHub</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
         </div>
       </div>
