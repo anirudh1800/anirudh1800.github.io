@@ -8,7 +8,7 @@
 
 	<p><em>${content.date?string("dd MMMM yyyy")}</em></p>
 
-	<p>${content.body}</p>
+	<p class="text-justify">${content.body}</p>
 
 	<hr />
 <div id="disqus_thread"></div>

@@ -1,7 +1,7 @@
 <#include "header.ftl">
 
 	<#include "menu.ftl">
-
+</br>
 	<div class="page-header">
 		<h1>Blog</h1>
 	</div>

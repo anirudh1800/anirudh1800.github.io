@@ -1,10 +1,10 @@
-		</div>
+		
 		<div id="push"></div>
     </div>
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2016 | Mixed with <a href="https://bootswatch.com/cosmo/bootstrap.css">Bootstrap v3.3.7</a> | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
+        <p class="muted credit">&copy; 2018 | Mixed with <a href="https://bootswatch.com/cosmo/bootstrap.css">Bootstrap v4.1.0</a> | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
       </div>
     </div>
     

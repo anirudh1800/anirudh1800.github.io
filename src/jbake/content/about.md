@@ -17,18 +17,18 @@ margin-left: -150px;
 }
 #cleared {
 clear: both;
-		}
+}
 </style>
+</br>
+<h1>About</h1>
 <br/>
-<br/>
-<div id="wrapper">
-	<div id="sidebar"><img src="me.webp" alt="Anirudh Gali" class="img-circle" style="width: 150px;height: 150px;">
-</div>
-<div id="content">
-	Hi! I'm Anirudh. I am full stack engineer, juggler of different tools/API's and passionate about the software development. I did Master's in Computer Science from Arizona State University, specialising in Cloud Computing, Distributed Software Development and Security. During free time, I learn new and upcoming cool stuff and spend quality time in writing articles. Feel free to email {<a href="mailto:gali.anirudh@gmail.com"><b>gali.anirudh@gmail.com</b></a>} if contribution is needed in any project.
-	<div>
-	<br/>
-	<pre>
+
+<div class="container">
+  <div class="row">
+    <div class="span2"><a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" data-link-color="#2A7DF6" href="https://twitter.com/anirudhgali?ref_src=twsrc%5Etfw">Tweets by anirudhgali</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+    <div class="span10"><div class="word-wrap: break-word;" style="width: 40rem; margin-left: 50px"><p class="text-justify">
+      Hi! I'm Anirudh. I am full stack engineer, juggler of different tools/API's and passionate about the software development. I did Master's in Computer Science from Arizona State University, specialising in Cloud Computing, Distributed Software Development and Security. During free time, I learn new and upcoming cool stuff and spend quality time in writing articles. Feel free to email {<a href="mailto:gali.anirudh@gmail.com"><b>gali.anirudh@gmail.com}</p>
+	  <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 mQINBFip/PIBEADyx2YWjzz+2qd1l+f7PkhzXGcW9X3JgagBMcH92Yl3hOl6wSA/
 Ngm80f7AgbJYRMb2rjJj0hmY+ACXe/XiDWdstYXAakd7Y6m6y6QzOJnug7ijcVHV
@@ -78,10 +78,7 @@ wRP3smgrwMxA/Yzp9tRiTTKvEWlUgQvJ5NnXXYUro90hG20DnqXcqqR/hD+iugDm
 geYCQW1GsH2YSy8FDfZlblLIcr/b3P/Ls9YEHsaCGtuk9d/MIO95Vpp3SjkNsCRi
 YGk9lUta0KyqhK4qZmnG
 =5DOg
------END PGP PUBLIC KEY BLOCK-----
-	</pre>
-	</div>
+-----END PGP PUBLIC KEY BLOCK-----</pre></div></div>
+  </div>
 </div>
-
 <div id="cleared"></div>
-</div>
